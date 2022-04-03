@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Mentee Form</title>
+   <link href="menteeForm.css" rel="stylesheet" type="text/css" />
+
+<body>
+  <h2><center>Become a Mentee</center></h2>
+  <p>Fill out this form to become a Mentee Anyone from upper classmen to indsutry professionals can become a Mentee</p>
+
+<form action = "displayMentee.html" method = "post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="linkedIn">LinkedIn link:</label><br>
+  <input type="text" id="linkedIn" name="linkedIn"><br>
+  <label for="email">Preferred email address:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <label for="work">Employer/School attending:</label><br>
+  <input type="text" id="work" name="work"><br>
+  <label for="field">Field/Major: </label><br>
+  <input type="text" id="field" name="field"><br>  
+  <label for="">Are you interested in being mentored by a student or a working professional?</label><br>
+  <select name="select" id="mentorOrmentee" ><option value="Student">Student</option>
+  <option value="Career">Working Professional</option>
+  <option value="Either">either</option>
+</select> <br>
+  
+  <input type="submit" value="Submit">
+  </form>
+</body>
