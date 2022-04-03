@@ -1,0 +1,13 @@
+
+@font-face
+{
+  font-family: myFont;
+  src: url(Wavehaus-95SemiBold.otf);
+}
+
+h1
+{
+  family-font: myFont;
+  font-size: 30px;
+  color: #ffc6d4;
+}
