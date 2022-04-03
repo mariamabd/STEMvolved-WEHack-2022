@@ -1,0 +1,41 @@
+@font-face
+{
+  font-family: myFont;
+  src: url(Wavehaus-95SemiBold.otf);
+}
+{
+
+h2
+  background-color: #d4fffe;
+  font-size: 60px;
+  color: #ffc6d4;
+  text-align: center;
+  font-weight: bold;
+  font-family: myFont;
+}
+
+h2
+{
+  margin-top: -20px;
+  margin-bottom: -15px;
+  margin-left: 300px;
+  margin-right: 295px;
+  color: #ffc6d4;
+  text-align: right;
+  font-size: 30px;
+  font-family: myFont;
+}
+
+img
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 690px;
+  margin-right: 80px;
+  width: 300px;  
+  height: 300px;  
+  border: 7px solid #d4fffe;    
+  object-fit: none;  
+  object-position: center middle;  
+  image-align: middle;
+}
